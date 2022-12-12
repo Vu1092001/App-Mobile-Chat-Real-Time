@@ -1,0 +1,37 @@
+114314199521
+
+tranthanhnam
+
+N@m123456
+
+Access key ID: AKIARVHNIIHQUROPKA7N
+Secret access key: 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
+
+phần công nghệ tự viết ko copy
+
+hình ảnh cần đánh chỉ mục và nguồn lấy
+
+Preebase
+nodejs
+kiếm trúc
+mỗi công nghệ chụp hình đặc trưng kiến trúc ko phải logo
+đặc điểm đặc trưng(hình) ko bỏ logo
+
+socket io
+trình bày chi tiệt hơn
+hạn chế gạch đầu dòng
+
+phân tích thiết kế
+trình bày công nghệ gì
+có dùng bên thứ 3 hay ko
+vẽ cả bên thứ 3
+hệ thống khóa user
+đăng ký
+chát tạo nhóm
+nhứng user case quan trọng
+
+class digagram
+
+
+
+

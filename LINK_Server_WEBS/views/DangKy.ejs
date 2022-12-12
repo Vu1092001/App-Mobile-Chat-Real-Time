@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/DangKy.css">
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/Script/DangKy.js"></script>
+</head>
+<body>
+    <div class="signup-box">
+        <h2>Sign Up</h2>
+        <form id="form" onsubmit="return false" action="/">
+          <div class="user-box">
+            <input type="text" name="" required="" id="edtTk">
+            <label>Tài khoản</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="" id="edtMk">
+            <label>Mật khẩu</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="" id="edtNLMk">
+            <label>Nhập lại mật khẩu</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="" required="" id="edtTTk">
+            <label>Tên tài khoản</label>
+          </div>
+          <button  class="sendOTP" type="SendOTP" id="OTP">Gửi mã OTP</button>
+          <div class="user-box">
+            <input type="text" name="" required="" id="edtOTP">
+            <label>Nhập mã OTP</label>
+          </div>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+          <br><center><button class="submitt" type="submit" id="btnDangKy">Đăng ký</button></center> <br>
+          <center><a href="/">Bạn đã có tài khoản ?</a></center>
+        </form>
+        
+      </div>
+</body>
+</html>

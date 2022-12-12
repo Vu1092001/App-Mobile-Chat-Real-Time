@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearMess"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtChuyenTiep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtPhanHoiCua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtPhanHoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/br_phan_hoi"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtVoicePhanHoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/br_phan_hoi"
+        android:drawableStart="@drawable/ic_baseline_play_arrow_24"
+        android:padding="5dp"
+        android:text="------------- :"
+        app:emojiCompatEnabled="false" />
+
+    <LinearLayout
+        android:id="@+id/lnPhanHoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:background="@drawable/br_phan_hoi">
+
+        <com.example.link.Adapter.ExpandableHeightGridView
+            android:id="@+id/lsImage_PhanHoi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:verticalSpacing="0dp"
+            android:visibility="visible"
+            android:background="@drawable/br_phan_hoi"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtNoiDung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:padding="10dp"
+        android:text="Tin Nhắn"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:drawableStart="@drawable/ic_baseline_play_arrow_24"
+        android:padding="10dp"
+        android:text="------------- :"
+        app:emojiCompatEnabled="false" />
+
+    <com.example.link.Adapter.ExpandableHeightGridView
+        android:id="@+id/lsImage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="0dp"
+        android:visibility="visible" />
+
+
+</LinearLayout>
